@@ -1,5 +1,7 @@
 const inquirer = require('inquirer')
 
+const markdown = require('./utils/markdown')
+
 const questions = [
     {
         type: 'input', 
