@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 
-const markdown = require('./utils/markdown')
+const generate = require('./utils/generate')
 
 const questions = [
     {
@@ -62,4 +62,8 @@ const questions = [
 
 inquirer.prompt(questions).then((answers) => {
     console.log(answers)
+
+    const markdown = generate(answers)
+    
+    console.log(markdown)
 })
