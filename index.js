@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 
-inquirer.prompt([
+const questions = [
     {
         type: 'input', 
         message: 'What is your project title?',
@@ -56,6 +56,8 @@ inquirer.prompt([
         message: 'what are your test instructions?',
         name: 'instructions'
     }
-]).then((answers) => {
+]
+
+inquirer.prompt(questions).then((answers) => {
     console.log(answers)
 })
