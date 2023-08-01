@@ -45,18 +45,13 @@ const questions = [
     },
     {
         type: 'input', 
-        message: 'How do you start your application?',
-        name: 'usage'
-    },
-    {
-        type: 'input', 
-        message: 'What are your contribion guidelines?',
-        name: 'guidelines'
+        message: 'What are your contribution guidelines?',
+        name: 'contributing'
     },
     {
         type: 'input', 
         message: 'what are your test instructions?',
-        name: 'instructions'
+        name: 'tests'
     }
 ]
 
