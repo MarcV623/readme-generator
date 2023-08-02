@@ -1,5 +1,7 @@
 const inquirer = require('inquirer')
 
+const fs = require('fs')
+
 const generate = require('./utils/generate')
 
 const questions = [
@@ -56,9 +58,7 @@ const questions = [
 ]
 
 inquirer.prompt(questions).then((answers) => {
-    console.log(answers)
-
     const markdown = generate(answers)
     
-    console.log(markdown)
+    fs.writeFileSync('generated-readme.md', markdown)
 })
