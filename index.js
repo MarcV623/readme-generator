@@ -29,8 +29,8 @@ const questions = [
         name: 'license',
         choices: [
             'MIT',
-            'ISC',
-            'ABC'
+            'GPLv3',
+            'ISC'
         ]
     },
     {
