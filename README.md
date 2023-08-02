@@ -1,33 +1,33 @@
-# Cool School ![badge](https://img.shields.io/badge/LICENSE-ISC-red)
+# readme-generator ![badge](https://img.shields.io/badge/LICENSE-ISC-red)
 
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installion)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#test)
+- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 
 ## Description
 
-teaches you how to be cool
+Creates personal README.
 
 ## Installion
 
-goto market place and install
+Run the command: npm install
 
 ## Usage
 
-click start
+Run the command: node index.js
 
 ## Contributing
 
-be a good person
+Be a good person
 
 ## Tests
 
-how to doc.
+There is no test command.
  
 ## Questions
 
